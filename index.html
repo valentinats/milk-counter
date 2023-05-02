@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>с молоком или без?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/svg+xml" href="milk-icon.svg" />
+  </head>
+  <body>
+    <div id="title">
+      <center>
+        <a href="https://github.com/valentinats">Milky</a>
+        <div class="description">Пейте, дети, молоко - будете здоровы!</div>
+      </center>
+    </div>
+
+    <div class="top">
+      <center>
+        <div
+          style="
+            position: absolute;
+            height: 48px;
+            width: 253px;
+            padding: 35px;
+            padding-top: none;
+            background: white;
+            padding-bottom: none;
+            border-top: 1px dashed #eee;
+            font-size: 1.6em;
+          "
+        >
+          <center>
+            <ul class="tabs">
+              <li class="tab-link current" data-tab="tab-1">1,0%</li>
+              <li class="tab-link" data-tab="tab-2">2,5%</li>
+              <li class="tab-link" data-tab="tab-3">3,2%</li>
+            </ul>
+          </center>
+        </div>
+      </center>
+    </div>
+
+    <div id="container">
+      <div id="entries">
+        <div id="tab-1" class="tab-content current">
+          <div class="posts">
+            <center>
+              <img
+                src="milk-bottle.png"
+                alt="Painted milk bottle with strawberry by heykeeks"
+              />
+            </center>
+            <p>
+              <a
+                href="https://msu.tularegion.ru/press_center/rospotrebnadzor/o-polze-moloka-v-ratsione-pitaniya-shkolnika/"
+                class="blog"
+                >зачем ребенку пить молоко? </a
+              >:
+            </p>
+            <blockquote>
+              <p>
+                для полноценного формирования скелета, развития костей и зубов
+                школьникам просто необходимо ежедневно употреблять молоко и
+                молочные продукты, которые содержат кальций и фосфор -
+                соотношение этих микроэлементов способствует лучшей усвояемости
+                кальция.
+              </p>
+            </blockquote>
+
+            <div class="info">польза для здоровья!</div>
+          </div>
+
+          <div class="posts">
+            <center>
+              <img src="little-girl.png" alt="Painted little girl by 94mlk" />
+            </center>
+            <p>
+              <a
+                href="https://hi-news.ru/eto-interesno/pochemu-stakan-teplogo-moloka-na-noch-pomogaet-zasnut.html"
+                class="blog"
+                >почему на ночь пьют молоко? </a
+              >:
+            </p>
+            <blockquote>
+              <p>
+                в напитке есть мелатонин и триптофан - эти вещества
+                действительно укрепляют сон и положительно влияют на его
+                качество. 
+                <br>
+                если выпивать по стакану молока каждый вечер перед
+                сном, мелатонин будет «настраивать» организм на сон и помогать
+                регулировать его изо для в день.
+              </p>
+            </blockquote>
+
+            <div class="info">крепкого сна!</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h1>С каждой кружкой молока в мире счастлива одна корова!</h1>
+        <p class="counter">0</p>
+        <button class="plus-btn">+ 1 кружка</button>
+        <button class="reset-btn">сбросить</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -237,3 +237,8 @@ blockquote {
     color: black;
     cursor: pointer; 
   } 
+
+  .plus-btn:hover,
+  .reset-btn:hover {
+    filter: brightness(1.1);
+  }

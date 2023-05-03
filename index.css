@@ -79,7 +79,6 @@ a:visited {
   position: absolute;
   display: block;
   width: 0;
-  width: 0;
   height: 0;
   border-bottom: 90px solid white;
   border-right: 90px solid transparent;
